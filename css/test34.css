@@ -1,0 +1,61 @@
+*{
+ 	padding: 0px;
+ 	margin:0px;
+}
+.head{
+    width: 100%;
+	height:40px;
+	background-color:#10B46D;
+}
+.login{
+	margin-top:5px;
+	float:right;
+    width:100px;
+    height:30px;
+    margin-right:15%;
+    background-color:#EFC50A;
+}
+#register{
+	text-decoration:none;
+	padding-left:33%;
+	line-height:30px;
+ 	text-align:center;
+ 	font-weight:bold;
+ 	color:#fff;
+}
+.con_imgs img {
+    width:100%;
+    margin:0px;
+}
+#mask{
+	background-color:#000;
+	opacity:0.6;
+	/*IE不支持opacity，用filter兼容到IE*/
+	filter:alpha(opacity=60);
+ 	height:1200px;
+	width:100%;
+	position:absolute;
+	left: 0px;
+	top: 0px;
+	z-index:1;
+}
+#gister{
+	position:fixed;
+	left:25%;
+	top:20%;
+ 	z-index:2;
+}
+.gister_close{
+	width:400px;
+	height:271px;
+	background: url(../lmgs/test4.png)  no-repeat;
+	position: relative;
+}
+#close{
+	float:right;
+	width:30px;
+	height:30px; 
+	margin-right:4px;
+	margin-top:5px;
+	background: url(../lmgs/u=504125147,2909657765&fm=116&gp=0.jpg)  no-repeat;
+}
